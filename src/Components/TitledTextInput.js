@@ -18,7 +18,7 @@ function TitledTextInput({title, def}) {
     return (
         <div className='d-flex flex-column gap-1 caption'>
             {Title}
-            <Input className='p-2' defaultValue={def} ></Input>
+            <Input className='p-2 px-3' defaultValue={def} ></Input>
         </div>
     );
 }
