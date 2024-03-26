@@ -6,21 +6,21 @@ function SecondaryButton(props) {
     let minWidth = props.minWidth === undefined ? '36px' : props.minWidth;
     const Button = styled.div`
         background: ;
-        border: 1px solid #DFDFDF;
-        border-radius: 24px;
+        border: 1px solid #64748B;
+        border-radius: 20px;
         box-shadow: inset 0px 0px 0px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
-        color: #DFDFDF;
+        color: #94A3B8;
         &:hover {
-            background: #DFDFDF;
+            background: #F9FAFC;
         }
         &:active {
-            background: #DFDFDF;
+            background: #F3F6F9;
         }
     `;
     return (
         <Clickable >
-            <Button className='p-2 mt-4 text-md'>
+            <Button className='p-2 px-4 mt-4 text-md'>
                 {props.children}
             </Button>
         </Clickable>
