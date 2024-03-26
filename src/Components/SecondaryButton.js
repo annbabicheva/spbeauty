@@ -8,19 +8,19 @@ function SecondaryButton(props) {
         background: ;
         border: 1px solid #DFDFDF;
         border-radius: 24px;
-        box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
+        box-shadow: inset 0px 0px 0px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
-        color: #FFFFFF;
+        color: #DFDFDF;
         &:hover {
-            background: #FFFFFF;
+            background: #DFDFDF;
         }
         &:active {
-            background: #FFFFFF;
+            background: #DFDFDF;
         }
     `;
     return (
         <Clickable >
-            <Button className='p-2 text-md'>
+            <Button className='p-2 mt-4 text-md'>
                 {props.children}
             </Button>
         </Clickable>
